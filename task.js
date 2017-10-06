@@ -40,7 +40,7 @@ function createTask(title, completed){
     tasksArr[index].completed = !tasksArr[index].completed
   }
 
-  var input = 'add pet milk'
+  var input = 'add get milk'
   var inputArr = input.split(' ')
   var description = inputArr.slice(1).join(' ')
   var newTask = createTask(description, false)
